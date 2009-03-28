@@ -13,9 +13,14 @@ For documentation, go to:
 
 Usage:
 
-	$twitter = new Twitter("username", "password");
-	$public_timeline = $twitter->getPublicTimeline();
+    $twitter = new Twitter("username", "password");
+    $public_timeline = $twitter->getPublicTimeline();
 	
 Justin Poliey <jdp34@njit.edu>
 http://justinpoliey.com
 http://jdp.github.com/twitterlibphp
+
+----
+Note: This project is kind of defunct. 500 lines is overkill, but I'm not going to change the way it works because of the number of applications that use it. For a wonderfully minimalist implementation of the API, check out Travis Dent's php-twitter library at:
+
+    http://github.com/tcdent/php-twitter/tree/master
